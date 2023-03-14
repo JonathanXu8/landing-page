@@ -15,8 +15,8 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     padding: 8px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .header .left {
@@ -34,6 +34,9 @@ body {
     justify-content: space-around;
     background-color: #1F2937;
     color:rgb(255, 255, 255);
+
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 50px;
     padding-bottom: 50px;
 } 
@@ -48,12 +51,17 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .body-2 .title {
     color: black;
-    margin: 30px;
     font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .body-2 .information {
