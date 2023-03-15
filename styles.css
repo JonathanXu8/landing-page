@@ -87,9 +87,53 @@ body {
 .body-3 .quote {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #1F2937;
 }
 
 .body-3 .source {
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
+    color: #1F2937;
+}
+
+.body-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.body-4 .box {
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+    border-radius: 25px;
+}
+
+.body-4 .box .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-4 .box .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: rgb(151, 151, 151);
 }
